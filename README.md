@@ -4,22 +4,32 @@
 제 개인적인 사용이 목적.
 나눔바른고딕, 나눔스퀘어(font-weight:700 & 400), 배달의민족(한나체, 주아체)
 
+**<head></head>삽입방법**
+
 웹사이트 HTML문서의 ``<head>``안에 아래 코드를 삽입.
 ```
-<link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css" rel="stylesheet" type="text/css" />
+나눔바른고딕
+<link href="https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/NanumBarun.css" rel="stylesheet" type="text/css" />
+
+배달의민족
+<link href="https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/DeliveryRace.css" rel="stylesheet" type="text/css" />
+
+나눔스퀘어
+<link href="https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/nanumsquare.css" rel="stylesheet" type="text/css" />
 ```
 
-**@import**
+**CSS @import 삽입방법**
+
 CSS파일 및 ``<head>``안의 스타일 시트에 아래 코드를 삽입.
 ```
 나눔바른고딕
-@import url('https://cdn.rawgit.com/singihae/Webfonts/master/NanumBarun.css');
+@import url('https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/NanumBarun.css');
 
 배달의민족
-@import url('https://cdn.rawgit.com/singihae/Webfonts/master/DeliveryRace.css');
+@import url('https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/DeliveryRace.css');
 
 나눔스퀘어
-@import url('https://cdn.rawgit.com/singihae/Webfonts/master/nanumsquare.css');
+@import url('https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/nanumsquare.css');
 ```
 
 ##적용하기
