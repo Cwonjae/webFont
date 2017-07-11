@@ -6,7 +6,7 @@
 
 **<head></head>삽입방법**
 
-웹사이트 HTML문서의 ``<head>``안에 아래 코드를 삽입.
+웹사이트 HTML문서의 ``<head></head>``사이에 아래 코드를 삽입.
 ```
 나눔바른고딕
 <link href="https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/NanumBarun.css" rel="stylesheet" type="text/css" />
@@ -20,7 +20,7 @@
 
 **CSS @import 삽입방법**
 
-CSS파일 및 ``<head>``안의 스타일 시트에 아래 코드를 삽입.
+CSS파일안의 스타일 시트 맨위 상단에 아래 코드를 삽입.
 ```
 나눔바른고딕
 @import url('https://cdn.rawgit.com/Cwonjae/webFont/a0ddaa75/NanumBarun.css');
